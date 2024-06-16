@@ -2,41 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>First Try</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <ul>
-        <li>Mere</li>
-        <li>Mango</li>
-        <li>Avocado</li>
-    </ul>
-    <style>
-        table, th, td {
-          border:2px solid black;
-          border-collapse: collapse;
-        }
-        </style>
-    <table class="center">
-        <tr>
-            <th>Tara</th>
-            <th>Anul</th>
-            <th>Imagine</th>
-        </tr>
-        <tr>
-            <td>Grecia</td>
-            <td>2019</td>
-            <td><img src="Images/Flag_of_Greece.svg.png" alt="Grecia" width="100" height="50"></td>
-        </tr>
-        <tr>
-            <td>Italia</td>
-            <td>2024</td>
-            <td><img src="Images/1280px-Flag_of_Italy.svg_ml.png" alt="Italia" width="100" height="50"></td>
-        </tr>
-    </table>
-    <p><a href="/reteta.html">Reteta magica pentru Sarmalele-Moldovenesti</a></p>
-
+    <header>
+        <h1>My Portofolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home"></section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus!</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cro</li>
+                <li>React</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quisquam?</p>
+            <ol>
+                <li>Reteta</li>
+                <li>Tari Vizitate</li>
+                <li>Portofolio</li>
+            </ol>
+        </section>
+        <section id="contact">
+            <form>
+                <input name="name" placeholder="Numele" required>
+                <input name="telefon" placeholder="Nr.Telefon" required>
+                <input name="email" placeholder="E-mail" required>
+                <label for="motiv">Motivul adresarii:</label>
+                <select name="motiv" required>
+                    <option value="">--Selectati o optiune--</option>
+                    <option value="">Angajare</option>
+                    <option value="">Interviu</option><br></br>
+                </select>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <a href="https://www.facebook.com/" target="_blank">Pagina de FaceBook</a></p>
+    </footer>
 </body>
 </html>
